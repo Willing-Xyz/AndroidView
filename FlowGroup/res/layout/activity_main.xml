@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.example.flowgroup.FlowGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+  >
+
+        <TextView
+            style="@style/text_flag_01"
+            android:singleLine="true"
+            android:text="学习indfffffffffffffffaaaaaaaaaaaaaaaaaaaaaaasssdffffsdfffffffffffffffffffffffffffffffsdfg" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="IT工程师" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="学习i" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="恋爱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="挣钱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:singleLine="true"
+            android:text="I thick i canjlkjuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu" />
+        
+                <TextView
+            style="@style/text_flag_01"
+            android:text="1恋爱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="1挣钱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="1努力ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:singleLine="true"
+            android:text="1I thick i sdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcan" />
+    </com.example.flowgroup.FlowGroup>
+    
+</LinearLayout>
