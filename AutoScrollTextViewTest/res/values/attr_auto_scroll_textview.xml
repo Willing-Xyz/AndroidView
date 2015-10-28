@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="auto_scroll_textview">
+    
+        <attr name="speed" format="integer" />
+        <attr name="step_length" format="dimension" />
+        <attr name="distance" format="dimension" />
+        <attr name="stay_time" format="integer" />
+        
+    </declare-styleable>
+    
+</resources>

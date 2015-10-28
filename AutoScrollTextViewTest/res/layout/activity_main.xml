@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:xyz="http://schemas.android.com/apk/res/com.example.autoscrolltextviewtest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    tools:context="com.example.autoscrolltextviewtest.MainActivity" >
+
+	<com.example.autoscrolltextviewtest.AutoScrollTextView 
+	    android:id="@+id/text"
+	    android:layout_width="400dp"
+	    android:layout_height="400dp"
+	    android:padding="50dp"
+	    xyz:speed="100"
+	    xyz:step_length="10dp"
+	    xyz:distance="100dp"
+	    android:text="final float scale = cesource"
+	    />
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="96dp"
+	    android:text="short" />
+
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/button1"
+	    android:layout_alignBottom="@+id/button1"
+	    android:layout_marginLeft="32dp"
+	    android:layout_toRightOf="@+id/button1"
+	    android:text="long" />
+
+</RelativeLayout>
