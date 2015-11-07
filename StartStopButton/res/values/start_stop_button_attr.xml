@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="start_stop_button">
+        <attr name="radius" format="dimension" />
+        <attr name="startText" format="string" />
+        <attr name="stopText" format="string" />
+        <attr name="startColor" format="color" />
+        <attr name="stopColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="color" format="color" />
+        <attr name="circleWidth" format="dimension" />
+        
+    </declare-styleable>
+</resources>

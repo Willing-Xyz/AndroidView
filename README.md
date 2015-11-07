@@ -1,11 +1,13 @@
 
 - [SlideShowListView](#SlideShowListView)
 - [FlowGroup](#FlowGroup)
+- [StartStopButton))#StartStopButton)
 
 ## <a name="#SlideShowListView"></a>SlideShowListView
 
 滑动显示删除按钮
 ![示例图][1]
+
 为了使用该控件，需要在提供的布局资源中，有一个id为delete，且对齐Parent的右边。
 
 ## <a name="FlowGroup"></a>FlowGroup
@@ -15,8 +17,10 @@
 其中每个View的背景是通过ShapeDrawable显示的。
  ![示例图][2]
 
- 
+## <a name="StartStopButton"></a>StartStopButton
+ ![示例图][3]
 
 
   [1]: ./images/20151028152555.png "20151028152555.png"
   [2]: ./images/20151028152709.png "20151028152709.png"
+  [3]: ./images/startStopButton.png
